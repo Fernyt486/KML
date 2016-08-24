@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Fibra TCC.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_homegardenbusiness">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_polygon">
+		<IconStyle>
+			<color>ffff00aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_polygon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_polygon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_polygon0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_polygon0">
+		<IconStyle>
+			<color>ffff00aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_polygon">
+		<IconStyle>
+			<color>ffff00aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_polygon0">
+		<IconStyle>
+			<color>ffff00aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_polygon0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_polygon0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_polygon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Mis lugares</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Fibra SuperCanal - Tafi Viejo</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-65.25613398979199,-26.79067360552033,0 -65.25633917998226,-26.79059513002938,0 -65.25610117529516,-26.78964518414981,0 -65.25620579761781,-26.78876771576315,0 -65.25694929382046,-26.78793089807748,0 -65.26165953881429,-26.78490251689212,0 -65.26948659722629,-26.77988166881447,0 -65.2703097457387,-26.77861291626981,0 -65.27115907355025,-26.77527658166159,0 -65.27259781936027,-26.76075485482944,0 -65.27120327270262,-26.74907080010447,0 -65.26938481168659,-26.74108288122065,0 -65.25921674478738,-26.74253484651891,0 -65.25926679522173,-26.74137274286994,0 -65.25749429915398,-26.73459981559036,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Folder>
+			<name>Nodos de Fibra TCC</name>
+			<Placemark>
+				<name>Fibra Policial III</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.22992662315956,-26.77880299871151,0 -65.22977067567179,-26.77917275939043,0 -65.22968505927612,-26.77974244651101,0 -65.22965220106168,-26.7805605289419,0 -65.22976602770544,-26.78160770913504,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Policial - 600 Viv</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.25668448258401,-26.79175694567257,0 -65.24945908182835,-26.78391225835795,0 -65.24285291837319,-26.78568320912043,0 -65.24244603703512,-26.78408480334304,0 -65.23986575037446,-26.78481437562316,0 -65.2382226081436,-26.78483688633246,0 -65.23801750051867,-26.78328787870896,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Lomas</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.24561751309447,-26.78323521697405,0 -65.24446892078632,-26.78196130023903,0 -65.24390886421547,-26.78132722003429,0 -65.24353241738864,-26.78053046606016,0 -65.24327701681173,-26.77990688055931,0 -65.2428230745921,-26.78004397804786,0 -65.24111648602492,-26.78049008077634,0 -65.24015550011384,-26.78065486753138,0 -65.2377396449436,-26.78100742166771,0 -65.23654874590969,-26.78106535933296,0 -65.23553974277671,-26.78099822081805,0 -65.233882465538,-26.78064158602362,0 -65.2323053282559,-26.78010628660462,0 -65.23066226942191,-26.77934615214499,0 -65.22823872058113,-26.77799524921147,0 -65.22632617187257,-26.77663287448656,0 -65.22536987724962,-26.77586551118228,0 -65.24939383523949,-26.74952492931469,0 -65.24937044838109,-26.74917017398445,0 -65.24959735206805,-26.74890791905254,0 -65.24991222499594,-26.74881937964153,0 -65.254535870141,-26.74395696382761,0 -65.25459465328282,-26.74329531635895,0 -65.257098082757,-26.74288674877058,0 -65.25500780658445,-26.73460637071923,0 -65.25735187802191,-26.73412042600894,0 -65.25747474906494,-26.73458278946829,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra UTA</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.24360990798562,-26.75583737473867,0 -65.24324710774981,-26.7555404657886,0 -65.24298900546472,-26.75559750530537,0 -65.2429397380598,-26.75518926842118,0 -65.23966980679904,-26.75577202099782,0 -65.23680926939903,-26.75637488213672,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Judicial</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.22861652733133,-26.77226615517768,0 -65.22816094779122,-26.77196411550227,0 -65.22772587518156,-26.77241457793351,0 -65.22353685668068,-26.77671564656284,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra UTA Nodo 1</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.24124681180365,-26.75548273653228,0 -65.24112899900104,-26.75480439865875,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Constitucion</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.25457553326808,-26.74333488337565,0 -65.25403842431913,-26.7414288477514,0 -65.24886704982841,-26.74246843354447,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra UTA Nodo 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.2396718063135,-26.75581998111037,0 -65.23990254330072,-26.7567695172825,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Sector 11</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.23772710516344,-26.78094877308904,0 -65.23743546633183,-26.77883203298627,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Sector 19</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.22993429947346,-26.7787681568791,0 -65.23004580228134,-26.77842015454913,0 -65.23105734665121,-26.7769370408353,0 -65.23241492532169,-26.77534902743163,0 -65.23433773257311,-26.7730046471165,0 -65.23626755873501,-26.77060286697131,0 -65.23661034769168,-26.76992908303978,0 -65.23685206919306,-26.7692691820627,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Villa Mitre</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.25749822917149,-26.73454114250413,0 -65.25709381415226,-26.73305096328339,0 -65.25829175800753,-26.73279605526573,0 -65.257692788133,-26.73067292884332,0 -65.25795692992476,-26.73062969440683,0 -65.25767726604909,-26.72853935442733,0 -65.2572729849658,-26.7267441074267,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Villa Obrera</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.25398823511549,-26.74142843302167,0 -65.25334675733558,-26.7388241299646,0 -65.25220447954851,-26.73572674872321,0 -65.2472220046901,-26.73671710407995,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Juventud</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.26803757022668,-26.73107275862678,0 -65.26556716702224,-26.73153854905345,0 -65.26393496013829,-26.73180335604766,0 -65.26176744730917,-26.7321040606662,0 -65.25825232368986,-26.73278034570639,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Retorno Prospero Mena</name>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.25751550663425,-26.73460485428559,0 -65.25929860208503,-26.7413658389491,0 -65.25923542283834,-26.7425153776181,0 -65.2646297992527,-26.74173577255035,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Fibra Nodo Judicial 2</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.22420602135493,-26.77488191265625,0 -65.22481223322831,-26.7753181467523,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Judicial 2</name>
+				<LookAt>
+					<longitude>-65.2246576413351</longitude>
+					<latitude>-26.77627593478032</latitude>
+					<altitude>0</altitude>
+					<heading>0.08973302367564007</heading>
+					<tilt>22.36575030522407</tilt>
+					<range>1059.285867575439</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.2241968120498,-26.77479379897985,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Judicial 1</name>
+				<LookAt>
+					<longitude>-65.22419735396477</longitude>
+					<latitude>-26.77620664223983</latitude>
+					<altitude>0</altitude>
+					<heading>0.04889532372802204</heading>
+					<tilt>22.36468387052297</tilt>
+					<range>1060.488007048995</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.22575136676899,-26.77428879911652,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Judicial 3</name>
+				<LookAt>
+					<longitude>-65.2246576413351</longitude>
+					<latitude>-26.77627593478032</latitude>
+					<altitude>0</altitude>
+					<heading>0.08973302367564007</heading>
+					<tilt>22.36575030522407</tilt>
+					<range>1059.285867575439</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.22351041017248,-26.77669732703767,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo UTA 2</name>
+				<LookAt>
+					<longitude>-65.24087714637645</longitude>
+					<latitude>-26.75766484747739</latitude>
+					<altitude>0</altitude>
+					<heading>0.09628683726362869</heading>
+					<tilt>26.50191771027299</tilt>
+					<range>1370.106393111653</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.23984506086447,-26.75679905937713,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo UTA 3</name>
+				<LookAt>
+					<longitude>-65.24087714637645</longitude>
+					<latitude>-26.75766484747739</latitude>
+					<altitude>0</altitude>
+					<heading>0.09628683726362869</heading>
+					<tilt>26.50191771027299</tilt>
+					<range>1370.106393111653</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.23680926939903,-26.75637488213672,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo UTA 1</name>
+				<LookAt>
+					<longitude>-65.24087714637645</longitude>
+					<latitude>-26.75766484747739</latitude>
+					<altitude>0</altitude>
+					<heading>0.09628683726362869</heading>
+					<tilt>26.50191771027299</tilt>
+					<range>1370.106393111653</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.24112848207609,-26.75488843601436,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Sector 6</name>
+				<LookAt>
+					<longitude>-65.22824516051216</longitude>
+					<latitude>-26.78201543150416</latitude>
+					<altitude>0</altitude>
+					<heading>0.08624253887927301</heading>
+					<tilt>7.148742618689263</tilt>
+					<range>3779.426325440392</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.24578411708136,-26.78337761886345,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Policial III</name>
+				<LookAt>
+					<longitude>-65.23011161350706</longitude>
+					<latitude>-26.78063966181966</latitude>
+					<altitude>0</altitude>
+					<heading>0.08741355275466037</heading>
+					<tilt>12.00741634697468</tilt>
+					<range>1810.959613508519</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.22969645914284,-26.78157640117112,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Sector 11</name>
+				<LookAt>
+					<longitude>-65.22832181227513</longitude>
+					<latitude>-26.77910054396556</latitude>
+					<altitude>0</altitude>
+					<heading>0.08660598706909732</heading>
+					<tilt>12.13030331601252</tilt>
+					<range>2486.214770110979</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.23741375706034,-26.77878494026867,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Sector 19</name>
+				<LookAt>
+					<longitude>-65.22839133215125</longitude>
+					<latitude>-26.77356490367806</latitude>
+					<altitude>0</altitude>
+					<heading>0.08663749788391346</heading>
+					<tilt>12.13029475136954</tilt>
+					<range>2481.676280961234</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.2368567945864,-26.76919213684303,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Sector 13</name>
+				<LookAt>
+					<longitude>-65.22971590077643</longitude>
+					<latitude>-26.77852291353118</latitude>
+					<altitude>0</altitude>
+					<heading>0.08723381541038235</heading>
+					<tilt>12.1302999079061</tilt>
+					<range>2484.408910457854</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.23247002489903,-26.77538276457838,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Prospero Mena</name>
+				<LookAt>
+					<longitude>-65.26088095551918</longitude>
+					<latitude>-26.74235628279766</latitude>
+					<altitude>0</altitude>
+					<heading>0.1012991302429662</heading>
+					<tilt>17.53459180930151</tilt>
+					<range>1499.378378282468</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.2646504720733,-26.74163059909271,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Villa Mitre</name>
+				<LookAt>
+					<longitude>-65.25666391167556</longitude>
+					<latitude>-26.73580264066674</latitude>
+					<altitude>0</altitude>
+					<heading>0.09924002779099338</heading>
+					<tilt>15.04126588680636</tilt>
+					<range>3190.657968286305</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.25737578840679,-26.72672848720641,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Constitucion</name>
+				<LookAt>
+					<longitude>-65.24835005582888</longitude>
+					<latitude>-26.74286391701908</latitude>
+					<altitude>0</altitude>
+					<heading>0.09553198598232467</heading>
+					<tilt>21.8550012991463</tilt>
+					<range>1579.145057072358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.24883535421881,-26.74244055002528,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Villa Obrera</name>
+				<LookAt>
+					<longitude>-65.25273247569733</longitude>
+					<latitude>-26.73877608962619</latitude>
+					<altitude>0</altitude>
+					<heading>0.0974343963544255</heading>
+					<tilt>22.87197002869832</tilt>
+					<range>1253.663652056494</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.24720779344524,-26.7367169562926,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo Juventud</name>
+				<LookAt>
+					<longitude>-65.25947527768288</longitude>
+					<latitude>-26.73338009076987</latitude>
+					<altitude>0</altitude>
+					<heading>0.1007055579497832</heading>
+					<tilt>23.92864971961108</tilt>
+					<range>1648.569386008769</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.26800460187765,-26.73097940998504,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nodo 600 V.</name>
+				<LookAt>
+					<longitude>-65.23846942301576</longitude>
+					<latitude>-26.77989964303608</latitude>
+					<altitude>0</altitude>
+					<heading>0.1679777545107677</heading>
+					<tilt>36.13011977199019</tilt>
+					<range>2732.006219455712</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_polygon0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.23800203613646,-26.78327451617459,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Oficina TCC</name>
+				<LookAt>
+					<longitude>-65.2572457638277</longitude>
+					<latitude>-26.73507455406603</latitude>
+					<altitude>0</altitude>
+					<heading>0.008294014210506332</heading>
+					<tilt>27.09991118435362</tilt>
+					<range>221.0912015669234</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_homegardenbusiness</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.25750141741808,-26.73461637887494,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Nodos Fibra LTC</name>
+			<open>1</open>
+			<Placemark>
+				<name>Fibra Talitas</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.22356300691983,-26.77671676045288,0 -65.22239321429532,-26.77807970934633,0 -65.22003840026154,-26.78153605415732,0 -65.21782956478099,-26.78384559613314,0 -65.21439437173166,-26.78109726625248,0 -65.21477540488773,-26.77988189157627,0 -65.21218216796625,-26.78033673706759,0 -65.2117728772718,-26.78043054881058,0 -65.21162630432754,-26.78081253232941,0 -65.21120915365302,-26.78094510601687,0 -65.21006080767518,-26.78025198186681,0 -65.21003453964461,-26.78005458978329,0 -65.21034844589333,-26.77987104037227,0 -65.21062305078011,-26.77999351431394,0 -65.21065557245501,-26.78030560295633,0 -65.21048524960604,-26.78059691729472,0 -65.21001283526438,-26.78031716171293,0 -65.20962847871917,-26.77987056209295,0 -65.2090990938261,-26.77952695571821,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Oficina LTC</name>
+				<LookAt>
+					<longitude>-65.21372697631406</longitude>
+					<latitude>-26.779149957652</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005695545794600351</heading>
+					<tilt>28.72105308382734</tilt>
+					<range>1282.940954336493</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_homegardenbusiness</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-65.20912560657327,-26.77979181396659,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
